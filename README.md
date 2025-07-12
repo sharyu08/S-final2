@@ -38,10 +38,7 @@ npm install
 
 # Run the development server
 npm run dev
-🏗️ Build for Production
-bash
-Copy
-Edit
+
 npm run build
 This will generate a dist/ folder for production deployment.
 
