@@ -1,12 +1,65 @@
-# React + Vite
+# Frontend - S-final2 (React + Vite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the **frontend** for the web application, built using **React** and **Vite**, located in the `Sfinal2` folder.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
+[Visit Website](https://your-frontend-url.vercel.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📁 Project Structure
+Sfinal2/
+├── public/
+├── src/
+│ ├── App.jsx
+│ ├── main.jsx
+│ └── ...
+├── index.html
+├── package.json
+├── vite.config.js
+└── ...
 
-## Expanding the ESLint configuration
+## ⚙️ Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- Vite
+- JavaScript (ES6+)
+- CSS / Tailwind (if applicable)
+
+---
+
+## 🛠️ Setup & Run Locally
+
+```bash
+# Clone the repository
+git clone https://github.com/your-username/your-repo.git
+cd Sfinal2
+
+# Install dependencies
+npm install
+
+# Run the development server
+npm run dev
+🏗️ Build for Production
+bash
+Copy
+Edit
+npm run build
+This will generate a dist/ folder for production deployment.
+
+🌐 Deployment on Vercel
+This frontend is deployed using Vercel. Make sure your Vercel settings are:
+
+Framework Preset: Vite
+
+Build Command: npm run build
+
+Output Directory: dist
+
+📦 Project Scripts
+json
+Copy
+Edit
+"scripts": {
+  "dev": "vite",
+  "build": "vite build",
+  "preview": "vite preview"
+}
